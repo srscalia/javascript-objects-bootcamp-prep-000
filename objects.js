@@ -9,3 +9,7 @@ function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
   return playlist;
 }
+
+
+
+updatePlaylist(playlist, "The Carters", "Crazy"); 
